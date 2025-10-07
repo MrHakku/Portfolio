@@ -9,7 +9,7 @@
 document.getElementById("year").innerHTML = new Date().getFullYear();
 
       //use ajax to submit form to https://formsubmit.co/ajax/2c0ff9022327706cd6181c8fafa99eb6/
-      $("#contactForm").submit(function (e) {
+      $(".contact-form").submit(function (e) {
 
         // get email
         var email = $("#email").val();
