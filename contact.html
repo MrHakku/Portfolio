@@ -96,7 +96,7 @@
                                 data-sb-form-api-token="API_TOKEN">
                                 <!-- Name input-->
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="name" type="text" placeholder="Enter your name..."
+                                    <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name..."
                                         data-sb-validations="required" />
                                     <label for="name">Full name</label>
                                     <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.
@@ -104,7 +104,7 @@
                                 </div>
                                 <!-- Email address input-->
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="email" type="email" placeholder="name@example.com"
+                                    <input class="form-control" id="email" name="email" type="email" placeholder="name@example.com"
                                         data-sb-validations="required,email" />
                                     <label for="email">Email address</label>
                                     <div class="invalid-feedback" data-sb-feedback="email:required">An email is
@@ -122,7 +122,7 @@
                                 </div>
                                 <!-- Subject input-->
                                 <div class="form-floating mb-3">
-                                    <input class="form-control" id="subject" type="text" placeholder="Subject"
+                                    <input class="form-control" id="subject" name="subject" type="text" placeholder="Subject"
                                         data-sb-validations="required" />
                                     <label for="subject">Subject</label>
                                     <div class="invalid-feedback" data-sb-feedback="subject:required">A subject is
@@ -130,7 +130,7 @@
                                 </div>
                                 <!-- Message input-->
                                 <div class="form-floating mb-3">
-                                    <textarea class="form-control" id="message" type="text"
+                                    <textarea class="form-control" name="message" id="message" type="text"
                                         placeholder="Enter your message here..." style="height: 10rem"
                                         data-sb-validations="required"></textarea>
                                     <label for="message">Message</label>
