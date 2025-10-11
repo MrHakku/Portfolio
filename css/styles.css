@@ -4169,7 +4169,6 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-bottom: 25px;
   min-width: 0;
   height: var(--bs-card-height);
   word-wrap: break-word;
@@ -4355,7 +4354,9 @@ textarea.form-control-lg {
   --bs-accordion-active-color: #1b2bdb;
   --bs-accordion-active-bg: #e9eafe;
 }
-
+.card-project{
+  margin-bottom: 25px;
+}
 .accordion-button {
   position: relative;
   display: flex;
