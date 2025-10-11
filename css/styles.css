@@ -4354,9 +4354,7 @@ textarea.form-control-lg {
   --bs-accordion-active-color: #1b2bdb;
   --bs-accordion-active-bg: #e9eafe;
 }
-.card-project{
-  margin-bottom: 25px;
-}
+
 .accordion-button {
   position: relative;
   display: flex;
