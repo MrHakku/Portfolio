@@ -1,68 +1,90 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects - Sangit Shrestha</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Sangit Shrestha - Projects</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/project.png" />
+    <!-- Custom Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+        rel="stylesheet" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
 
-<body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>Sangit Shrestha</h1>
-                <p>Web Developer</p>
+<body class="d-flex flex-column h-100 bg-light">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+            <div class="container px-5">
+                <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">Sangit
+                        Shrestha</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-            <ul class="nav-links">
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
         </nav>
-    </header>
-    <section id="register" class="section form-container">
-        <form action="submit_registration" method="POST">
-            <div class="form-group">
-                <label for="Name">Name:</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="Occupation">Occupation:</label>
-                <input type="text" id="occupation" name="occupation" required>
-            </div>
-            <div class="form-group">
-                <label for="Gender">Gender:</label>
-                <input type="text" id="gender" name="gender" required>
-            </div>
-            <div class="form-group">
-                <label for="Intrest">Interests/Hobbies/Talents:</label>
-                <input type="text" id="intrest" name="intrest" required>
-            </div>
-            <div class="form-group">
-                <label for="Why">Why do you want to join Leo ?:</label>
-                <input type="text" id="why" name="why" required>
-            </div>
-            <div class="form-group">
-                <label for="Payment">Payment:</label>
-                <input type="file" id="pay" name="pay" required>
-            </div>
-            <div class="form-group">
-                <label for="Photo">Photo:</label>
-                <input type="file" id="photo" name="photo" required>
-            </div>
-            <button type="submit">Register</button>
-        </form>
-    </section>
+        <!-- Registration-->
+        <section id="register" class="section form-container">
+            <form action="submit_registration" method="POST">
+                <div class="form-group">
+                    <label for="Name">Name:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="Occupation">Occupation:</label>
+                    <input type="text" id="occupation" name="occupation" required>
+                </div>
+                <div class="form-group">
+                    <label for="Gender">Gender:</label>
+                    <input type="text" id="gender" name="gender" required>
+                </div>
+                <div class="form-group">
+                    <label for="Intrest">Interests/Hobbies/Talents:</label>
+                    <input type="text" id="intrest" name="intrest" required>
+                </div>
+                <div class="form-group">
+                    <label for="Why">Why do you want to join Leo ?:</label>
+                    <input type="text" id="why" name="why" required>
+                </div>
+                <div class="form-group">
+                    <label for="Payment">Payment:</label>
+                    <input type="file" id="pay" name="pay" required>
+                </div>
+                <div class="form-group">
+                    <label for="Photo">Photo:</label>
+                    <input type="file" id="photo" name="photo" required>
+                </div>
+                <button type="submit">Register</button>
+            </form>
+        </section>
 
-    <footer>
-        <p>&copy; 2024 Sangit Shrestha | Web Developer</p>
-    </footer>
+        <footer>
+            <p>&copy; 2024 Sangit Shrestha | Web Developer</p>
+        </footer>
 </body>
 
 </html>
